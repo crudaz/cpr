@@ -15,7 +15,7 @@ export const Contact = () => {
               <div className="my-12 grid md:grid-cols-2 grid-cols-1 md:gap-x-8 gap-y-8">
                 <div className="rounded-2xl border border-gray-200 bg-white p-7 group transition-all duration-500 hover:bg-indigo-600">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className="w-14 h-14 bg-indigo-600 rounded-full flex items-center justify-center mb-5 transition-all duration-500 group-hover:bg-white cursor-pointer"
                   >
                     <svg
@@ -42,7 +42,7 @@ export const Contact = () => {
                 </div>
                 <div className="rounded-2xl border border-gray-200 bg-white p-7 group transition-all duration-500 hover:bg-indigo-600">
                   <a
-                    href="javascript:;"
+                    href="#"
                     className="w-14 h-14 bg-indigo-600 rounded-full flex items-center justify-center mb-5 transition-all duration-500 group-hover:bg-white cursor-pointer"
                   >
                     <svg
@@ -58,7 +58,6 @@ export const Contact = () => {
                         stroke=""
                         strokeWidth="2"
                         strokeLinecap="round"
-                        L
                       />
                     </svg>
                   </a>
