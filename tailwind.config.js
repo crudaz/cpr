@@ -4,9 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-      // Configure your color palette here
-        // bgIndigo: '#f7b71e'
+        // Configure your color palette here
+        indigo: '#f7b71e'
       },
+      // backgroundImage: {
+      //   'hero-pattern': "url()"
+      // }
     },
   },
   plugins: [],

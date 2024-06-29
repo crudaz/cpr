@@ -1,40 +1,41 @@
-import cprLogo from "../assets/logo.svg";
+import cprLogo from "../assets/logo-white.svg";
 
 export const Footer = () => {
   return (
-    <>
-      <footer className="w-full py-14 ">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-          <a href="/" className="flex justify-center">
+    <footer className="w-full bg-gray-900 bottom-0">
+      <div className="mx-auto max-w-7xl pb-5">
+        <div className="flex justify-between items-center flex-col gap-8 xl:flex-row">
+          <div className="flex items-center justify-between gap-5 flex-wrap w-full mt-5">
+            <a href="/" className="flex justify-center">
               <img className="w-40 h-15" src={cprLogo} alt="CPR" />
             </a>
-            <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
+            <ul className="text-xl flex items-center  gap-3 md:gap-6 transition-all duration-500">
               <li>
-                <a href="#" className="text-gray-800 hover:text-gray-900">
+                <a href="#" className="text-white hover:text-indigo">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className=" text-gray-800 hover:text-gray-900">
+                <a href="#" className="text-white hover:text-indigo">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className=" text-gray-800 hover:text-gray-900">
+                <a href="#" className="text-white hover:text-indigo">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" className=" text-gray-800 hover:text-gray-900">
+                <a href="#" className="text-white hover:text-indigo">
                   Contact
                 </a>
               </li>
             </ul>
-            <div className="flex space-x-10 justify-center items-center mb-14">
+
+            <div className="flex space-x-10 justify-center items-center">
               <a
                 href="#"
-                className="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 "
+                className="block  text-white transition-all duration-500 hover:text-indigo "
               >
                 <svg
                   className="w-[1.688rem] h-[1.688rem]"
@@ -50,7 +51,7 @@ export const Footer = () => {
               </a>
               <a
                 href="#"
-                className="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 "
+                className="block  text-white transition-all duration-500 hover:text-indigo "
               >
                 <svg
                   className="w-[1.688rem] h-[1.688rem] "
@@ -66,7 +67,7 @@ export const Footer = () => {
               </a>
               <a
                 href="#"
-                className="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 "
+                className="block  text-white transition-all duration-500 hover:text-indigo "
               >
                 <svg
                   className="w-[0.938rem] h-[1.625rem]"
@@ -82,7 +83,7 @@ export const Footer = () => {
               </a>
               <a
                 href="#"
-                className="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 "
+                className="block  text-white transition-all duration-500 hover:text-indigo "
               >
                 <svg
                   className="w-[1.875rem] h-[1.375rem]"
@@ -99,13 +100,12 @@ export const Footer = () => {
                 </svg>
               </a>
             </div>
-            <span className="text-lg text-gray-500 text-center block">
-              <a href="#">CPR Construction & Remodeling</a> 2024, © All rights
-              reserved.
-            </span>
           </div>
         </div>
-      </footer>
-    </>
+        <span className="text-sm text-white text-right block">
+          All rights reserved © 2024
+        </span>
+      </div>
+    </footer>
   );
 };

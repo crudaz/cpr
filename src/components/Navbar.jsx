@@ -1,8 +1,8 @@
-import cprLogo from "../assets/logo.svg";
+import cprLogo from "../assets/logo-white.svg";
 
 export const Navbar = () => {
   return (
-    <nav className="w-full py-5 transition-all duration-500 bg-slate-50 border-b border-solid border-indigo-100">
+    <nav className="w-full py-5 transition-all duration-500 bg-gray-900 border-b border-solid border-indigo-100">
       <div className="xl:px-28 lg:px-14 px-10">
         <div className="w-full flex justify-between flex-col lg:flex-row">
           <div className="flex justify-between lg:flex-row">
@@ -38,7 +38,7 @@ export const Navbar = () => {
               <li>
                 <a
                   href="/"
-                  className="mb-2 px-3 block lg:mr-6 mr-4 md:mb-0 lg:text-left text-center transition-all duration-700 text-gray-900 hover:text-gray-600 text-base font-medium leading-6"
+                  className="mb-2 px-3 block lg:mr-6 mr-4 md:mb-0 lg:text-left text-center transition-all duration-700 text-white hover:text-indigo text-base font-medium leading-6"
                 >
                   Home
                 </a>
@@ -46,7 +46,7 @@ export const Navbar = () => {
               <li>
                 <a
                   href="/about"
-                  className="mb-2 xl:px-3 px-0 break-keep block lg:mr-6 mr-4 md:mb-0 lg:text-left text-center transition-all duration-700 text-gray-900 hover:text-gray-600 text-base font-medium leading-6"
+                  className="mb-2 xl:px-3 px-0 break-keep block lg:mr-6 mr-4 md:mb-0 lg:text-left text-center transition-all duration-700 text-white hover:text-indigo text-base font-medium leading-6"
                 >
                   About us
                 </a>
@@ -54,7 +54,7 @@ export const Navbar = () => {
               <li>
                 <a
                   href="/services"
-                  className="mb-2 xl:px-3 px-0 break-keep block lg:mr-6 mr-4 md:mb-0 lg:text-left text-center transition-all duration-700 text-gray-900 hover:text-gray-600 text-base font-medium leading-6"
+                  className="mb-2 xl:px-3 px-0 break-keep block lg:mr-6 mr-4 md:mb-0 lg:text-left text-center transition-all duration-700 text-white hover:text-indigo text-base font-medium leading-6"
                 >
                   Services
                 </a>
@@ -62,17 +62,17 @@ export const Navbar = () => {
               <li>
                 <a
                   href="/contact"
-                  className="mb-2 xl:px-3 px-0 break-keep block lg:mr-6 mr-4 md:mb-0 lg:text-left text-center transition-all duration-700 text-gray-900 hover:text-gray-600 text-base font-medium leading-6"
+                  className="mb-2 xl:px-3 px-0 break-keep block lg:mr-6 mr-4 md:mb-0 lg:text-left text-center transition-all duration-700 text-white hover:text-indigo text-base font-medium leading-6"
                 >
                   Contact
                 </a>
               </li>
             </ul>
             <div className="flex items-center justify-center  xl:ml-14 ml-2 gap-x-5">
-              <button className="w-20 h-11 text-white text-sm font-semibold leading-5 bg-indigo-600 hover:bg-indigo-800 transition-all duration-700 rounded-full">
+              <button className="w-20 h-11 text-white text-sm font-semibold leading-5 bg-gray-700 hover:bg-indigo transition-all duration-700 rounded-full">
                 Login{" "}
               </button>
-              <button className="w-24 h-11 rounded-full bg-gray-900 hover:bg-gray-700 transition-all duration-700 shadow-sm text-white text-sm font-semibold leading-5">
+              <button className="w-24 h-11 rounded-full bg-gray-700 hover:bg-indigo transition-all duration-700 shadow-sm text-white text-sm font-semibold leading-5">
                 Sign up{" "}
               </button>
             </div>
